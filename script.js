@@ -36,7 +36,7 @@ function renderList() {
         editButton.textContent = "Editar";
         editButton.onclick = () => updateItem(item.id);
         
-        // Botón para eliminar
+        // Botón para eliminar OJO DESABILITAN
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Eliminar";
         deleteButton.onclick = () => deleteItem(item.id);
